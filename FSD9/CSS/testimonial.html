@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+</head>
+<style>
+    body{
+        margin: 20px;
+        padding: 2em;
+        text-align: center;
+         height: 100%;
+    }
+    h1{
+        display: inline;
+        padding: 5px;
+        border-bottom: 3px rgb(7, 161, 232) solid;
+        width: auto;
+    }
+    #p1{
+        color: rgb(19, 150, 237);
+        font-weight: 500;
+      
+    }
+    .parent{
+        box-sizing: border-box;
+        /* border: 2px black solid; */
+        margin: 5%;
+        /* padding: 2% 5% 2% 10%; */
+        padding: 5%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 300px;
+        grid-gap: 10px;
+        height: 100%;
+        width: 100%;
+
+    }
+    .child{
+        height: 300px;
+        width: 350px;
+        padding: 0px;
+        box-sizing:border-box ;
+        background-color: lightgrey;
+        border-radius: 5px;
+        object-fit: cover;
+         margin-bottom:1em ;
+        /* text-align: center; */
+        /* align-items: center; */
+    }
+       .image img{
+         margin: 0px;
+         padding: 0px;
+        position:relative;
+        top: -50px;
+          height: 100px;
+          width: 100px;
+          border: 8px solid white;
+          border-radius: 100%;
+    }
+    
+    .inner-child{
+        position: relative;
+        left: 10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    @media (max-width:1100px)  {
+         .parent{
+             display: flex;
+             flex-direction: row;
+             flex-wrap: wrap;
+             align-self:center;
+         }
+    }
+    @media (max-width:720px) {
+       
+        *{
+            margin: 2px 1px;
+            padding: 0px;
+        }
+        #pp{
+             margin: 10px;
+
+        }
+        h1{
+            margin: 5px;
+        }
+             .parent{
+                
+                 grid-template-columns: repeat(1,1fr);
+             }
+    }
+
+</style>
+<body>
+    <h1>Testimonial</h1>
+    <p id="pp">Subscribe To our Channel for Excitting Offers</p>
+    <div class="parent">
+        <div class="child child1"><div class="image"><img src="web img.jpg" alt=""></div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis porro corrupti aliquid tempore aperiam ab, at impedit odit cumque adipisci?</p> <div class="inner-child"><p id="p1"><b>Aman Dodke</b></p><pre> </pre> <p>  Founder of OLS</p></div> </div>
+        <div class="child child2"><div class="image"><img src="web img.jpg" alt=""></div></p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quisquam architecto vel repudiandae expedita s dicta.</p>  <div class="inner-child"><p id="p1"><b>Aman Dodke</b></p><pre> </pre> <p>  Founder of OLS</p></div></div>
+        <div class="child child3"><div class="image"><img src="web img.jpg" alt=""></div></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quasi repudiandae tenetur, sapiente esse voluptatibus impedit magnam! Debitis, neque quaerat?</p> <div class="inner-child"><p id="p1"><b>Aman Dodke</b></p><pre> </pre> <p>Founder of OLS</p></div> </div></div>
+    </div>
+</body>
+</html>

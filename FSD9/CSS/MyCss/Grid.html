@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        height: 80vh;
+        width: 50vw;
+        background-color: yellow;
+        border: 2px black solid;
+            display: grid;
+            grid-template: "A A A"
+                           "B C C"
+                           "E E F" ;
+    }
+    .item{
+     
+        border: 2px black solid;
+    
+    }
+    .item1{
+         background-color: brown;
+         grid-area: A ;
+    }
+    .item2{
+         background-color: rgb(42, 155, 165);
+         grid-area: B ;
+    }
+    .item3{
+         background-color: rgb(128, 165, 42);
+         grid-area: C ;
+    }
+    .item4{
+         background-color:pink;
+         grid-area: F ;
+    }
+    .item5{
+         background-color: red;
+         grid-area: E ;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="item item1"> Navbar</div>
+        <div class="item item2">img</div>
+        <div class="item item3">text</div>
+        <div class="item item4">Contact</div>
+        <div class="item item5">Footer</div>
+    </div>
+</body>
+</html>

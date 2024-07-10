@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+</head>
+<Style>
+    .navbar{
+        box-sizing: border-box;
+        margin: 0px 0px;
+         padding: 10px;
+        background-color: black;
+      display: flex;
+        justify-content: space-between;
+        height:60px;
+    }
+    .navlink{
+        box-sizing: border-box;
+        padding-top: 5px;
+        text-decoration:none;
+        font-size: 25px;
+        font-weight:bold;
+              color: rgba(138, 3, 3, 0.954);
+    }
+    .inner-navbar{
+        display: flex;
+        flex-direction: row; 
+      
+    }
+    .innernavlink{ 
+        display: flex;
+        align-content: center;
+        padding: 6px 16px;
+        font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    }
+    .btn{
+        box-sizing: border-box;
+        color: aliceblue;
+        margin: 2px 15px 2px 15px;
+        padding: 5px 20px 5px 20px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgb(135, 5, 5);
+        border-radius: 10px;
+    }
+    @media(max-width:700px){
+            .navbar{ 
+                text-align: center;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-content: center;
+                justify-content: center;
+                border-bottom: 1px solid grey;
+                padding: 8px 0px;
+            }    
+            .navlink{
+                padding: 8px 0px;
+                border-bottom: 1px solid grey;
+            
+            }
+            .inner-navbar{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: center;
+                align-content: center;
+                 width: 100%;
+            }
+            .innernavlink{
+                justify-content: center;
+                border-bottom: 1px solid grey;
+                padding: 8px 0px;
+                width: 100%;
+            }
+            .btn{
+                box-sizing: border-box;
+                 width: 40%;
+               padding: 5px;
+             display: flex;
+             justify-content: center;
+             align-self:center;
+            
+            }
+            
+    }
+</Style>
+<body>
+    <div class="navbar">
+        <a href="#" class="navlink">Coding Thinker </a>
+        <div class="inner-navbar">   
+            <a href="#" class="innernavlink">Home</a>
+            <a href="#" class="innernavlink">Support</a>
+            <a href="#" class="innernavlink">Help</a>
+            <a href="#" class="innernavlink">Contact</a>
+        </div>
+        <a href="#" class="btn">Login</a>
+    </div> 
+</body>
+</html>

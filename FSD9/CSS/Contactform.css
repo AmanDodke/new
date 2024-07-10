@@ -1,0 +1,128 @@
+
+.formbody{
+        margin: 5px;
+        padding: 10px 0px 0px 0px;
+        text-align: center;
+        background-color: rgb(229, 229, 229);
+        /* border: 2px black solid; */
+    }
+    #h-touch{
+        display: inline;
+        border-bottom: 3px rgb(17, 137, 206) solid;
+    }
+    #link{
+        text-decoration:none;
+        color: grey;
+    }
+    .Form{
+        box-sizing: border-box;
+        margin: 2em;
+        padding: 10px;
+        /* border: 3px black solid; */
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: 50px 50px 50px 100px 50px ;
+        grid-gap: 40px;
+      /* background-color: rgb(197, 197, 197); */
+      text-align: center;
+    }
+    
+    .entry1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+     
+    } 
+     .entry2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .entry3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+      
+    }
+    .entry4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    #btn{
+        height: 40px;
+        width: 120px;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        border-radius: 3px;
+        background-color: rgb(23, 166, 255);
+    }
+    #pb{
+     color: white;
+}
+    .info1{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .info2{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .info3{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .info4{
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    .info-image{
+                margin: 5px 20px;
+                height: 40px;
+    }
+    .info-image1{
+               
+                margin: 8px 20px;
+                height: 35px;
+    }
+    .info-image4{
+               
+               margin: 8px 20px;
+               height: 40px;
+   }
+    .holder{
+            height: 40px;
+             width: 100%;
+             border: 0px black solid;
+             border-radius: 10px;
+    }
+    .info{
+        box-sizing: border-box;
+        padding: 10px;
+            height: 75px;
+             width: 100%; 
+             background-color: white;
+             border: 0px black solid;
+             border-radius: 10px;
+             display: flex;
+              justify-content: start;
+    }
+    .holder4{
+        height: 75px;
+    }
+    .footer{
+             background-color: rgba(0, 0, 0, 0.76);
+        padding: 2px;
+    }
+    @media (max-width:720px) {
+                .Form{
+                     display: flex;
+                      flex-direction: column;
+                      flex-wrap: wrap;
+                }
+                
+                .info{
+                    height: auto;
+                    display: flex;
+                      flex-direction: row;
+                      flex-wrap: wrap;
+                      justify-content: center;
+                }
+    }

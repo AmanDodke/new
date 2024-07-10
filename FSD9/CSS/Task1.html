@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+</head>
+<style>
+    *{
+     text-decoration:none;
+    }
+    .Parent{
+height: 100vh;
+width: 100vw;
+border: 3px black solid;
+background-color: beige;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ justify-content: space-between;
+
+    }
+    .child1{
+        height: 300px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        position: fixed;
+        top: 200px;
+        left: 300px;
+        margin: 10px;
+         background-color: grey;
+        padding: 20px;
+        border: 2px black solid;
+      }
+      .child2{
+        height: 300px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        position: fixed;
+        top:200px;
+        left: 620px;
+       
+        background-color: grey;
+      
+      }
+      .child3{
+        height: 300px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        position: fixed;
+        top: 200px;
+        left: 940px;
+        margin: 10px;
+        background-color: grey;
+        padding: 20px;
+      }
+   img{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+    }
+    #p1{
+      display: flex;
+      text-align: center;
+      position: fixed;
+      top: 80px;
+       left: 620px;
+    }
+    #boderblue{
+      margin: 2px;
+      padding: 2px;
+      border-bottom: 3px rgb(22, 155, 231) solid;
+    }
+</style>
+<body>
+   <div class="Parent">
+
+    <div ><h1 id="boderblue">Testimonials</h1></div> 
+       
+     <p id="p1">Subscribe To our Channel for Exciting offers</p>
+     <div class="child" id="child1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolorem, nihil at consectetur rem maxime aliquid. Saepe illo a architecto!
+        <br>
+       <a href="" > <b>Elon musk</b></a><p>founder of Space-X</p>
+     </div>
+      <div class="child" id="child2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas asperiores tenetur ut tempora repellat. Corporis unde aliquid cum deleniti accusantium?  <br>
+        <a href="" > <b>Steve jobs</b></a><p>founder of Apple</p></div>
+     <div class="child" id="child3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatem cumque unde perspiciatis sapiente repudiandae aliquid alias esse. Quos, dolorem! 
+        <br>
+        <a href="" > <b>Billgates</b></a><p>founder of Microsoft</p>
+     </div>
+      <div class="circle"><img src="data:image/jpeg;base64,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" alt="image not found"></div>
+      <div class="circle"><img src="https://media.gettyimages.com/id/90504957/photo/san-francisco-apple-ceo-steve-jobs-speaks-during-a-special-event-september-9-2009-in-san.jpg?s=612x612&w=0&k=20&c=S1AkGrxjVIlW41t_9Vs2MQDBrYrZmhxH288GWkrTKO8=" alt="image not found"></div>
+      <div class="circle"> <img src="https://media.gettyimages.com/id/1247163886/photo/london-england-microsoft-founder-bill-gates-reacts-during-a-visit-with-britains-prime.jpg?s=612x612&w=0&k=20&c=k6pAJ5FaXVskYyR-ZC-qtEpVcDKkQDwhelyAoVdPhS8=" alt="image not found"></div> -->
+    
+   </div> 
+</body>
+</html>

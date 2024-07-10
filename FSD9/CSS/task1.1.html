@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{ 
+        box-sizing: border-box;
+         /* padding-left: 10%; */
+        display: flex;
+        margin:0px 0px;
+        height: 100vh;
+         width: 100vw;
+        border: 2px solid black ;
+        background-color:whitesmoke;
+        flex-direction: row;
+        justify-content: center;
+      
+    }
+    #test{  
+        border-bottom: 3px rgb(22, 155, 231) solid;
+        margin: 2px;
+        padding: 2px;
+        position:absolute;
+        top: 30px;
+        left:625px;
+     
+    }
+    #p1{
+           margin: 10px;
+           position: absolute;
+           top: 70px;
+           left: 620px;
+    }
+    #p2{
+           margin: 10px;
+           position: absolute;
+           top: 80px;
+           left: 555px;
+    }
+    .child{
+        box-sizing: border-box;
+        height: 250px;
+        width: 300px;
+        /* border: 2px black solid; */
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-self: center; 
+            margin: 20px;
+            text-align: center; 
+          padding-top: 80px;
+          background-color:white;
+          box-shadow: 0px 5px 5px 5px rgb(137, 132, 132);
+    }
+      
+    img{
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        box-shadow: 0px 4px 6px 4px rgb(129, 123, 123);
+    }
+    #circle1{
+        display: flex;
+       position: fixed;
+       top: 27%;
+       left: 380px;
+    }
+    #circle2{
+        display: flex;
+       position: absolute;
+       top: 27%;
+       left: 720px;
+    }
+    #circle3{
+        display: flex;
+       position: absolute;
+       top: 27%;
+       left: 1060px;
+    }
+    .elon{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+       
+    }
+    .p2{
+        font-size: small;
+    }
+    
+.b{ 
+    padding: 0px 5px;
+    font-size: large;
+    color: rgb(22, 158, 237);
+}
+</style>
+<body>
+      <div class="parent">
+        <div><h1  id="test">Testimonials</h1></div>
+        <div id="p2"><p> Subscribe To Our Channel For Exciting Offers</p></div>
+       <div class="child" id="child1">
+    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quasi enim ab molestiae distinctio, sunt sapiente laboriosam amet ipsum ad. 
+    </p> <div class="elon"> <p class="p2"> <b class="b">Elon Musk </b> Founder Of  Space-X</p></div></div>
+       <div class="child" id="child2"> <p> lorem10Lorem ipsum dolor sit amet.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem neque amet consectetur quod eius vero blanditiis modi voluptates excepturi expedita? </p><div class="elon"> <p class="p2"> <b class="b">Steve Jobs </b> Founder Of Apple</p></div></div>
+       <div class="child" id="child3"> <p> Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita provident ut harum odio quos autem necessitatibus sit architecto facilis accusantium. </p><div class="elon"> <p class="p2"> <b class="b">Bill Gates </b>Founder of Microsoft</p></div></div>
+      <div id="circle1"><img src="https://media.gettyimages.com/id/1358939083/photo/new-york-new-york-elon-musk-attends-time-person-of-the-year-on-december-13-2021-in-new-york.jpg?s=612x612&w=0&k=20&c=8lW6YH6kCocfmuJ-4-TeR4tDe_XdsdRRisRg7DQogXM=" alt="image not found"></div>
+       <div id="circle2"><img src="https://media.gettyimages.com/id/90504957/photo/san-francisco-apple-ceo-steve-jobs-speaks-during-a-special-event-september-9-2009-in-san.jpg?s=612x612&w=0&k=20&c=S1AkGrxjVIlW41t_9Vs2MQDBrYrZmhxH288GWkrTKO8=" alt="image not found"></div>
+      <div id="circle3"> <img src="https://media.gettyimages.com/id/1247163886/photo/london-england-microsoft-founder-bill-gates-reacts-during-a-visit-with-britains-prime.jpg?s=612x612&w=0&k=20&c=k6pAJ5FaXVskYyR-ZC-qtEpVcDKkQDwhelyAoVdPhS8=" alt="image not found"></div> 
+    
+    </div>
+</body>
+</html>

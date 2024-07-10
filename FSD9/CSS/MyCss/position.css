@@ -1,0 +1,49 @@
+ *{
+    box-sizing: border-box;
+ }
+.dabba{ 
+    padding: 100px;
+  border: 2px; background-color: blueviolet; height: 800px ;
+  width: 800;
+  
+}
+.container{
+    height: 400px;;
+    width: 600px;;
+     border: 2px solid black;
+     background-color: aqua;
+}
+.box{
+    height: 1000px;
+    width: 800px;
+    border: 2px solid black;
+    background-color: rgb(136, 52, 72);
+}
+
+img{
+       height:200px;
+       width: 200px;
+
+}
+.image1{
+    /* position:relative ;
+    top:0px; */
+}
+
+.image2{
+    /* position:absolute;
+    right:0px;
+    top:0px; */
+}
+
+.image3{
+    /* position: fixed ; 
+    top:0px; */
+}
+
+.image4{
+    /* position:sticky;
+    top:0px; */
+}
+
+
